@@ -14,16 +14,33 @@
     var button = document.querySelector("button");    
     button.addEventListener("click", clickHandler, false);
 
+    // Using Enter key to input numbers
+    window.addEventListener("keydown", keydownHandler, false);
+
+    function keydownHandler(event){
+        if(event.keyCode === 13){
+            validateInput();
+        }
+    }
+
+    // Ensuring only numbers are entered
     function clickHandler(){
-        playGame();
+        validateInput();
+    }
+
+    function validateInput(){
+        playersGuess = parseInt(input.value);
+        if(isNaN(playersGuess)){
+            output.innerHTML = "Please enter a number.";
+        }else{
+            playGame();
+        }
     }
 
     function playGame(){
         guessesRemaining --;
         guessesMade ++;
         gameState = " Guess: " + guessesMade + ", Remaining: " + guessesRemaining;
-
-        playersGuess = parseInt(input.value);
 
         if(playersGuess > mysteryNumber){
             output.innerHTML = "That's too high." + gameState;
@@ -58,4 +75,13 @@
             output.innerHTML = "No more guesses remaining!" + "<br>"
             + "The number was: " + mysteryNumber + ".";
         }
+        // Add disable the button to ensure game cannot play anymore after endgame
+        button.removeEventListener("click", clickHandler, false);
+        button.disabled = true;
+
+        // Disable the enter key
+        window.removeEventListener("keydown", keydownHandler, false);
+
+        // Disable the input field
+        input.disabled = true;
     }
