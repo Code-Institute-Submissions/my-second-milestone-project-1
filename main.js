@@ -1,6 +1,7 @@
     // Game Variables
-    var mysteryNumber = 50;
-    var playersGuess =0;
+    var mysteryNumber = Math.floor(Math.random() * 100);
+    console.log(mysteryNumber);
+    var playersGuess = 0;
     var guessesRemaining = 10;
     var guessesMade = 0;
     var gameState = "";
@@ -14,7 +15,7 @@
     var button = document.querySelector("button");    
     button.addEventListener("click", clickHandler, false);
 
-    // Using Enter key to input numbers
+    // Listen for Enter key presses
     window.addEventListener("keydown", keydownHandler, false);
 
     function keydownHandler(event){
@@ -69,7 +70,7 @@
     function endGame(){
         if (gameWon){
             output.innerHTML = "Yes, it's " + mysteryNumber + "!" + "<br>"
-            + "It only took you " + guessesMade + " guesses.";
+            + "It took you " + guessesMade + " guesses.";
         }
         else {
             output.innerHTML = "No more guesses remaining!" + "<br>"
