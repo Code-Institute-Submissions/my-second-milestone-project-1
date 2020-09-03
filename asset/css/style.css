@@ -1,6 +1,30 @@
-.button {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
-    font-size: 14px;
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:100,200,300,400,500,600,700|Cuprum:100,200,300,400,500,600,700');
+
+body {
+    background: #f1ecec;
+}
+
+input {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+}
+
+#output {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+button {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
     color: #fff;
     padding: 10px 20px;
     border: 2px solid #000;
@@ -23,13 +47,13 @@
     user-select: none;
 }
 
-.button:hover {
+button:hover {
     background: -webkit-linear-gradient(top, #acc7a3, #506651);
     background: -moz-linear-gradient(top, #acc7a3, #506651);
     background: linear-gradient(top, #acc7a3, #506651);
 }
 
-.button:active {
+button:active {
     background: -webkit-linear-gradient(top, #858565, #c5c9a9);
     background: -moz-linear-gradient(top, #858565, #c5c9a9);
     background: linear-gradient(top, #858565, #c5c9a9);
