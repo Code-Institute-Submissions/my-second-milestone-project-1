@@ -10,16 +10,13 @@
 </head>
 <body>
 
-    
-
     <h1>Random Number Guess Game!</h1>
 
     <div id="welcome" class="jumbotron">
         <h2>You are welcome to play an exciting number guess game!<br> It's both challenging and relaxing at the sametime.</h2>
     </div>
 
-<div class="jumbotron">
-    <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#gameWelcome">How to play the game!</button>
+    <button class="btn btn-lg btn-success" data-target="#gameWelcome" data-toggle="modal">How to play the game!</button>
     
     <div class="modal" tabindex="-1" role="dialog" id="gameWelcome">
         <div class="modal-dialog" role="document">
@@ -37,12 +34,14 @@
             </div>
         </div>
     </div>
-</div>
+
     <div class="jumbotron">
         <p id="output">I am thinking of a number between 0 and 99.</p>
         <input id="input" type="text" placeholder="Enter your guess..." autofocus>
         <button>Guess</button>
     </div>
+
+
 
     <script type="text/javascript" src="main.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
