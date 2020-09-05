@@ -3,19 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
     <link rel="stylesheet" href="asset/css/style.css">
     <title>Number Game</title>
+    
 </head>
 <body>
 
+    
+
     <h1>Random Number Guess Game!</h1>
 
+    <div id="welcome" class="jumbotron">
+        <h2>You are welcome to play an exciting number guess game!<br> It's both challenging and relaxing at the sametime.</h2>
+    </div>
 
-    <p id="output">I am thinking of a number between 0 and 99.</p>
-    <input id="input" type="text" placeholder="Enter your guess..." autofocus>
-    <button>Guess</button>
+<div class="jumbotron">
+    <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#gameWelcome">How to play the game!</button>
+    
+    <div class="modal" tabindex="-1" role="dialog" id="gameWelcome">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p>The game RANDOMLY picks a numberbetween 0 and 99 that is known only to the Console.
+                    The player then has a chance of making 10 guesses to unveil the mystery number.
+                    Each time a guess is made, a message comes up to announce one of the following:<br>
+                    a) That's lower! Guess: _ Remaining: _ (so player will know he/she must guess higher figure to get the mystery number)<br>
+                    b) That's higher! Guess: _ Remaining: _ (similar to above, it to guide the player on what to guess next)<br>
+                    c) No more guesses remaining! The number was _<br>
+                    d) Yes, its _! It took you _ guesses<br>
+                    Now you can start playing the game and I assure you that you will find it interesting. Enjoy!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="jumbotron">
+        <p id="output">I am thinking of a number between 0 and 99.</p>
+        <input id="input" type="text" placeholder="Enter your guess..." autofocus>
+        <button>Guess</button>
+    </div>
 
     <script type="text/javascript" src="main.js"></script>
-    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
