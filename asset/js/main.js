@@ -12,7 +12,7 @@
     var output = document.querySelector("#output");
 
     // The Button
-    var button = document.querySelector("button");    
+    var button = document.querySelector("#button");    
     button.addEventListener("click", clickHandler, false);
 
     // Listen for Enter key presses
@@ -32,7 +32,7 @@
     function validateInput(){
         playersGuess = parseInt(input.value);
         if(isNaN(playersGuess)){
-            output.innerHTML = "Please enter a number.";
+            output.innerHTML = "Please enter a number";
         }else{
             playGame();
         }
@@ -86,3 +86,4 @@
         // Disable the input field
         input.disabled = true;
     }
+
