@@ -1,6 +1,6 @@
     // Game Variables
     var mysteryNumber = Math.floor(Math.random() * 100);
-    console.log(mysteryNumber);
+    
     var playersGuess = 0;
     var guessesRemaining = 10;
     var guessesMade = 0;
