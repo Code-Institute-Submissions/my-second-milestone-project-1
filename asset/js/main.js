@@ -7,7 +7,7 @@
     var gameState = "";
     var gameWon = false;
 
-    // The input and output field
+    // The input and output fields
     var input = document.querySelector("#input");
     var output = document.querySelector("#output");
 
@@ -63,6 +63,7 @@
             gameWon = true;
             endGame();
         }
+     
     }
 
     // Add endGame function
@@ -70,7 +71,7 @@
     function endGame(){
         if (gameWon){
             output.innerHTML = "Yes, it's " + mysteryNumber + "!" + "<br>"
-            + "It took you " + guessesMade + " guesses.";
+            + "It took you " + guessesMade + " guess(es).";
         }
         else {
             output.innerHTML = "No more guesses remaining!" + "<br>"
