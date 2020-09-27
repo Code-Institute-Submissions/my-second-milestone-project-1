@@ -11,6 +11,8 @@
 </head>
 <body>
 
+<div id="container">
+
 <h1 class="panel">Random Number Guess Game!</h1>
 
 <div id="welcome" class="panel">
@@ -23,11 +25,11 @@
     <button type="submit" class="guessButton">Guess</button><br>
     <button class="newGameButton" onclick="newGame()">New Game</button>
 </div>
-
+</div>
 <div class="panel">
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">How to play the game!</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#instModal">How to play the game!</button>
 
-  <div class="modal fade" id="myModal" role="dialog">
+  <div class="modal fade" id="instModal" role="dialog">
     <div class="modal-dialog modal-sm">
       <div class="modal-content">
         <div class="modal-header">
@@ -42,7 +44,7 @@
             b) That's higher! Guess: _ Remaining: _ (similar to above, it to guide the player on what to guess next)<br>
             c) No more guesses remaining! The number was _<br>
             d) Yes, its _! It took you _ guesses<br>
-            e) Refresh to play it again.<br>
+            e) Click New Game button to play it again.<br>
             Now you can start playing the game and I assure you that you will find it interesting. Enjoy!</p>
         </div>
         <div class="modal-footer">
