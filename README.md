@@ -127,7 +127,7 @@ of the game. The following scenarios were successfully tested:
 1. Game behaviour
 
 The game allows only number input as player guess, this is compared with the computer random number which I tagged as<br>
-Mystery number and a report called guessResult is generated in three folds. It is either:
+Mystery number and a report called guessResult is generated in three folds. It is either:<br>
 a   The guess is higher or<br>
 b   The guess is lower or<br>
 c   The guess is right.<br>
