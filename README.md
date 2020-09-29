@@ -1,5 +1,7 @@
 # Random Number Guess Game!
 
+<img src="asset/images/responsiveness.png" style="margin: 0; width: 80%;"><br>
+
 ***Preamble***<br>
 This game is my second milestone project. It is a number guess game that allows the player to guess numbers<br>
 between 0 and 99 to search for a mystery number that is only known to the console. The mystery number is picked<br>
@@ -77,11 +79,13 @@ e)  the modal message which displays the instructions for playing the game. This
 The following technologies were used to create the game:
 
 * Gitpod full template - workspace
-* Bootstrap 4.4.1 - used to simplify the structure and to make it responsive.
+* Bootstrap 4.4.1 - used to simplify the structure and to make it responsive
 * jquery 3.4.1 - used to reference Javascript modal
-* Google Fonts - used to style the website fonts.
+* Google Fonts - used to style the website fonts
 * W3 School
-* Balsamiq - the tool used to create the wireframe.
+* Balsamiq - the tool used to create the wireframe
+* pixabay.com - used to set the background photo
+* Am I Responsive? - to produce the README showcase image
 
 # Testing
 
@@ -113,12 +117,38 @@ to achieve this.<br>
 All fonts, images and other attributes have been changed accordingly to fit different screen sizes. Media queries have<br>
 been used to make them work.
 
+## Manual testing
+
+#### Summary:
+
+Hours, days and weeks were spent testing Random Number Game throughout its development, which is a testament to the quality<br>
+of the game. The following scenarios were successfully tested:
+
+1. Game behaviour
+
+The game allows only number input as player guess, this is compared with the computer random number which I tagged as<br>
+Mystery number and a report called guessResult is generated in three folds. It is either:
+a   The guess is higher or<br>
+b   The guess is lower or<br>
+c   The guess is right.<br>
+These were manually checked to ensure that the codes are working properly.
+
+2. Modal behaviour
+
+This was manually tested to ensure that it renders appropriately. The test reveals that the modal will open but not able<br> 
+to close when it is within a container. This was rectified after it was taken out of the container into its separate div<br>
+and class of panel.
+
+3.  Input behaviour
+
+The input type is set to number as a requirement. This too was manually tested to ensure that it does not accept letters<br>
+and symbols. It renders correctly.
 
 # Deployment 
 
 The site was developed using Gitpod full template - workspace to commit and push to GitHub.<br>
 GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight<br>
- from a repository on GitHub, optionally runs the files through a build process, and publishes a website.
+from a repository on GitHub, optionally runs the files through a build process, and publishes a website.
 
 ## The following steps can be taken to access my page from the GitHub repository. 
 
@@ -139,7 +169,7 @@ Press Enter. Your local clone will be created.<br>
 
 ***The URL for this project is as follows:***
 
-https://oakerele-web.github.io/My-first-milestone-project/
+https://oakerele-web.github.io/my-second-milestone-project/
 
 
 # Credits 
@@ -150,19 +180,17 @@ All the text contents in this project are original because they are written by m
 
 ## Media 
 
-All icons are from the Bootstrap website including the styling while the font styling is from Font Awesome website.<br> 
-The Logo was formed and designed by me through Placeit.org using the fake name formed for the gym.<br>
-Pictures used in the gallery page and the home page were copied from existing websites of gyms on the internet<br>
+Resources are used from the Bootstrap website including the styling while the font styling is from Font Awesome website.<br> 
+The home page is the only page of this website and the background picture for this page was taken from pixabay.com 
 
 ## Acknowledgment 
 
-The Codeinstitute Resume project by Matt Rudge is what inspired this project and I chose this project from a list of<br>
-other proposed projects by the Institute.<br>
-Special thanks to Maranatha Ilesanmi - my course mentor - first for his objective view of the project at the selection<br> 
-the stage then assisting me with applications for my Wireframe/Mockups and finally this Milestone 1 project which he has helped<br> 
-me a lot to review, re-structure and suggested solutions to my pertinent questions. I also thank Claire of the Student Care<br> 
-department for her support and understanding when I needed adjustment to my calendar. I am also grateful to all our colleagues<br>
-in Slack, thank you all.   
+I chose this project from a list of other proposed projects by the Institute.<br>
+Special thanks to Maranatha Ilesanmi - my mentor - for his objective view of this Milestone 2 project which he has helped<br> 
+me a lot to review, re-structure and suggested solutions to my pertinent questions. I also thank the tutors of the institutes<br> 
+for their assistance whenever I run out of clue. Also, I am grateful to all colleagues in Slack perticularly, the peer review<br>
+section, thank you all. I also want to acknowledge Rex van der Spuy the author of the textbook - Foundation Game Design<br> 
+(with HTML5 & JavaScript).  
 
 ## Disclaimer 
 
