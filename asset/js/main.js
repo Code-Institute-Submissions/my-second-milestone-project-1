@@ -66,7 +66,7 @@ function playGame() {
 
         // Disable the button
         guessButton.removeEventListener("click", clickHandler, false);
-        button.disabled = true;
+        guessButton.disabled = true;
 
         // Disable the enter key
         window.removeEventListener("keydown", keydownHandler, false);
