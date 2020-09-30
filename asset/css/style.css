@@ -43,7 +43,7 @@ body {
 
 h1 {
     font-family: "Ubuntu", sans-serif;
-     background: #eee;
+    background: #eee;
     padding: 10px;
     max-width: 80%;
     margin: 20px auto;
@@ -87,3 +87,5 @@ button:active {
     background: -moz-linear-gradient(top, #858565, #c5c9a9);
     background: linear-gradient(top, #858565, #c5c9a9);
 }
+
+

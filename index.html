@@ -21,9 +21,9 @@
 
 <div class="panel">
     <p class="guessResult">I am thinking of a number between 0 and 99.</p>
-    <input class="input" type="number" placeholder="Enter your guess ..." autofocus required>
-    <button type="submit" class="guessButton">Guess</button><br>
-    <button class="newGameButton" onclick="newGame()">New Game</button>
+    <input class="input" type="number" onkeypress="return event.charCode >= 48" min="1" placeholder="Enter your guess ..." autofocus required>
+    <button type="submit" class="guessButton">Guess</button>
+    <div><button class="newGameButton" onclick="newGame()">New Game</button></div>
 </div>
 </div>
 <div class="panel">
