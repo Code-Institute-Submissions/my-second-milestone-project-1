@@ -21,8 +21,8 @@ b) That's higher! Guess: _ Remaining: _ (similar to above, it guides the player 
 c) No more guesses remaining! The number was _. This is an end-of-game message when the player is unable to guess the mystery<br>
    number. The game can be restarted by refreshing the page.<br> 
 d) Yes, its _! It took you _ guess(es). Again, this is an end-of-game message except that the player has guessed the<br>
-   mystery number correctly. The game can be played again by refreshing the page.<br>    
-
+   mystery number correctly.<br>    
+e) The game can be played again by clicking New Game button.<br>
 
 # Table of Contents
 1. [User Experience](#user-experience)
@@ -42,11 +42,11 @@ d) Yes, its _! It took you _ guess(es). Again, this is an end-of-game message ex
 My main goal is to showcase a part of what I have learned within a short time in JavaScript. I struggled a lot to<br> 
 decide on which project to embark upon for this second milestone project as I considered a new website, adding more<br> 
 features to my first milestone project, geolocation using International Space Station (ISS) and/or searching for<br> 
-facilities such as hotel and accommodation or restaurants or stores using Google and Leaflet APIs and of course games.<br> 
+facilities such as hotels and accommodation or restaurants or stores using Google and Leaflet APIs and of course games.<br> 
 I finally settled for this random-number game targetted at young players to keep them busy. With this game, I was<br> 
 able to use the HTML to set the page for the game, use the CSS to style and color the game, and the JavaScript to prepare<br> 
 the logic in the game that makes it to set a mystery number, accept guess numbers, compares them with the mystery number<br> 
-and returns with a verdict whether the guess number is the same with the mystery number or not. The interesting aspect of<br> 
+and returns with a verdict whether the guess number is the same as the mystery number or not. The interesting aspect of<br> 
 the game is the selection of the mystery number which is random in all senses.
 
 # Wireframe using Balsamiq
@@ -185,12 +185,15 @@ The home page is the only page of this website and the background picture for th
 
 ## Acknowledgment 
 
-I chose this project from a list of other proposed projects by the Institute.<br>
-Special thanks to Maranatha Ilesanmi - my mentor - for his objective view of this Milestone 2 project which he has helped<br> 
-me a lot to review, re-structure and suggested solutions to my pertinent questions. I also thank the tutors of the institutes<br> 
-for their assistance whenever I run out of clue. Also, I am grateful to all colleagues in Slack perticularly, the peer review<br>
-section, thank you all. I also want to acknowledge Rex van der Spuy the author of the textbook - Foundation Game Design<br> 
-(with HTML5 & JavaScript).  
+* I chose this project from a list of other proposed projects by the Institute.<br>
+* Special thanks to Maranatha Ilesanmi - my mentor - for his objective view of this Milestone 2 project which he has helped<br> 
+  me a lot to review, re-structure and suggested solutions to my pertinent questions.<br> 
+* I thank the tutors of the institute for their assistance whenever I run out of clue.  
+* I am grateful to all colleagues in Slack community particularly, the peer review section for their objective criticism.<br> 
+  thank you all. 
+* I also want to acknowledge Rex van der Spuy the author of the textbook - Foundation Game Design (with HTML5 & JavaScript),<br> 
+  the textbook that inspired my choice of this project.
+* Finally, I thank all the members of staff of the institute especially, the Student Care Unit for their support.   
 
 ## Disclaimer 
 
