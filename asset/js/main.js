@@ -59,7 +59,7 @@ function playGame() {
 }
     function endGame() {
         if (gameWon) {
-            guessResult.innerHTML = "Yes, it's " + mysteryNumber + "!" + "<br>" + "It took you " + guessesMade + " guess(es)"
+            guessResult.innerHTML = "Yes, it's " + mysteryNumber + "!" + "<br>" + "It took you " + guessesMade + " guess(es)";
         } else {
             guessResult.innerHTML = "No more guesses remaining!" + "<br>" + "The number was: " + mysteryNumber + ".";
         }

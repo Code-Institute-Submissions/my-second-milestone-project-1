@@ -1,6 +1,6 @@
 # Random Number Guess Game!
 
-<img src="asset/images/responsiveness.png" style="margin: 0; width: 80%;"><br>
+<img src="asset/images/responsive.png" style="margin: 0; width: 80%;"><br>
 
 ***Preamble***<br>
 This game is my second milestone project. It is a number guess game that allows the player to guess numbers<br>
@@ -15,14 +15,14 @@ This is how the game works:<br>
 The game RANDOMLY picks a number between 0 and 99 that is known only to the Console.<br>
 The player then has a chance of making 10 guesses to unveil the mystery number.<br>
 Each time a guess is made, a message comes up to announce one of the following:<br>
-a) That's lower! Guess: _ (i.e. number of guesses so far) Remaining: _ (usually 10 minus the number of guesses so far made).<br>
-This allows the player to know he/she must guess a higher figure to get the mystery number.<br>
-b) That's higher! Guess: _ Remaining: _ (similar to above, it guides the player on what to guess next).<br>
-c) No more guesses remaining! The number was _. This is an end-of-game message when the player is unable to guess the mystery<br>
+- That's lower! Guess: _ (i.e. number of guesses so far) Remaining: _ (usually 10 minus the number of guesses so far made).<br>
+   This allows the player to know he/she must guess a higher figure to get the mystery number.<br>
+- That's higher! Guess: _ Remaining: _ (similar to above, it guides the player on what to guess next).<br>
+- No more guesses remaining! The number was _. This is an end-of-game message when the player is unable to guess the mystery<br>
    number. The game can be restarted by refreshing the page.<br> 
-d) Yes, its _! It took you _ guess(es). Again, this is an end-of-game message except that the player has guessed the<br>
+- Yes, its _! It took you _ guess(es). Again, this is an end-of-game message except that the player has guessed the<br>
    mystery number correctly.<br>    
-e) The game can be played again by clicking New Game button.<br>
+- The game can be played again by clicking New Game button.<br>
 
 # Table of Contents
 1. [User Experience](#user-experience)
@@ -55,8 +55,8 @@ the game is the selection of the mystery number which is random in all senses.
 * Features
 * Designs
 
-<a href="/workspace/my-second-milestone-project/asset/images/project2 sketch.png">Sketch</a><br>
-<a href="/workspace/my-second-milestone-project/asset/images/project2 wireframe.png">Wireframe</a>
+<a href="/workspace/my-second-milestone-project/asset/images/sketch2.png">Sketch</a><br>
+<a href="/workspace/my-second-milestone-project/asset/images/wireframe2.png">Wireframe</a>
 
 # Existing Features
 There is only 1 key page on this website: * [Home Page](#home-page)
@@ -65,12 +65,12 @@ There is only 1 key page on this website: * [Home Page](#home-page)
 
 The Home page, which is my index.html page is a simple page that contains the following:<br>
 
-a)  the name/heading of the game<br>
-b)  a welcome message<br> 
-c)  the modal button that displays the instructions for playing the game<br>
-d)  the play game area where an input box requests for a number to be guessed and<br> 
+1.  the name/heading of the game<br>
+2.  a welcome message<br> 
+3.  the modal button that displays the instructions for playing the game<br>
+4.  the play game area where an input box requests for a number to be guessed and<br> 
     either the enter key of the keyboard or the enter button triggers the result and of course<br>
-e)  the modal message which displays the instructions for playing the game. This message box has two<br> 
+5.  the modal message which displays the instructions for playing the game. This message box has two<br> 
     closing buttons. One at the top of the message and another one at the bottom of the message,<br> 
     deliberately designed like this to make life easy for the player.
 
@@ -124,22 +124,22 @@ been used to make them work.
 Hours, days and weeks were spent testing Random Number Game throughout its development, which is a testament to the quality<br>
 of the game. The following scenarios were successfully tested:
 
-1. Game behaviour
+#### 1. Game behaviour
 
 The game allows only number input as player guess, this is compared with the computer random number which I tagged as<br>
-Mystery number and a report called guessResult is generated in three folds. It is either:<br>
-a   The guess is higher or<br>
-b   The guess is lower or<br>
-c   The guess is right.<br>
+_Mystery Number_ and a report called guessResult is generated in three folds. It is either:<br>
+***a   The guess is higher or*** <br>
+***b   The guess is lower or*** <br>
+***c   The guess is right.*** <br>
 These were manually checked to ensure that the codes are working properly.
 
-2. Modal behaviour
+#### 2. Modal behaviour
 
 This was manually tested to ensure that it renders appropriately. The test reveals that the modal will open but not able<br> 
 to close when it is within a container. This was rectified after it was taken out of the container into its separate div<br>
 and class of panel.
 
-3.  Input behaviour
+#### 3.  Input behaviour
 
 The input type is set to number as a requirement. This too was manually tested to ensure that it does not accept letters<br>
 and symbols. It renders correctly.
