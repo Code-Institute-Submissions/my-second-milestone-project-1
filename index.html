@@ -10,22 +10,26 @@
   <link rel="stylesheet" href="asset/css/style.css">
 </head>
 <body>
-
+<!-- Container for the Game -->
 <div id="container">
-
+<!-- Panel for the Heading -->
 <h1 class="panel">Random Number Guess Game!</h1>
-
+<!-- Panel for the Welcome Message -->
 <div id="welcome" class="panel">
     <h2>You are welcome to play an exciting number guess game!<br> It's both challenging and relaxing at the sametime.</h2>
 </div>
-
+<!-- Panel for the Game Functions -->
 <div class="panel">
     <p class="guessResult">I am thinking of a number between 0 and 99.</p>
+    <!-- Guess Number input box for the Game -->
     <input class="input" type="number" min="0" oninput="validity.valid||(value='');" placeholder="Enter your guess ..." autofocus required>
+    <!-- Guess Button for the Game -->
     <button type="submit" class="guessButton">Guess</button><hr />
+    <!-- Restart Button for the Game -->
     <div><button class="newGameButton" onclick="newGame()">New Game</button></div>
 </div>
 </div>
+    <!-- Panel for the Game Instruction Modal -->
 <div class="panel">
   <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#instModal">How to play the game!</button>
 
