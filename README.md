@@ -5,21 +5,21 @@
 ***Preamble***<br>
 This game is my second milestone project. It is a number guess game that allows the player to guess numbers<br>
 between 0 and 99 to search for a mystery number that is only known to the console. The mystery number is picked<br>
-at random by the computer and it can be any number between the range of 0 and 99. It is designed to showcase what I<br>
-have learned so far in HTML, CSS and JavaScript.<br>
-This game is designed for relaxation as it requires attention even though it is a guessing game, if the player is not attentive,<br> 
-there is every chance that he/she may not guess the correct number in several attempts. The game is set to be easy to win<br>
-by allowing 10 guess chances. A lower number of guess chances would make the chance of winning limited because lower chances<br> 
-means lower opportunity to win, thus discouraging young players.<br> 
+at random by the computer and it can be any number between the range of 0 and 99. It is designed to showcase what<br> 
+I have learned so far in HTML, CSS and JavaScript.<br>
+This game is designed for relaxation as it requires attention even though it is a guessing game, if the player is not<br> 
+attentive, there is every chance that he/she may not guess the correct number in several attempts. The game is set to<br> 
+be easy to win by allowing 10 guess chances. A lower number of guess chances would make the chance of winning limited<br> 
+because lower chances means lower opportunity to win, thus discouraging young players.<br> 
 This is how the game works:<br>
 The game RANDOMLY picks a number between 0 and 99 that is known only to the Console.<br>
 The player then has a chance of making 10 guesses to unveil the mystery number.<br>
 Each time a guess is made, a message comes up to announce one of the following:<br>
-- That's lower! Guess: _ (i.e. number of guesses so far) Remaining: _ (usually 10 minus the number of guesses so far made).<br>
-   This allows the player to know he/she must guess a higher figure to get the mystery number.<br>
+- That's lower! Guess: _ (i.e. number of guesses so far) Remaining: _ (usually 10 minus the number of guesses so far<br> 
+  made). This allows the player to know he/she must guess a higher figure to get the mystery number.<br>
 - That's higher! Guess: _ Remaining: _ (similar to above, it guides the player on what to guess next).<br>
-- No more guesses remaining! The number was _. This is an end-of-game message when the player is unable to guess the mystery<br>
-   number. The game can be restarted by refreshing the page.<br> 
+- No more guesses remaining! The number was _. This is an end-of-game message when the player is unable to guess the<br> 
+  mystery number. The game can be restarted by refreshing the page.<br> 
 - Yes, its _! It took you _ guess(es). Again, this is an end-of-game message except that the player has guessed the<br>
    mystery number correctly.<br>    
 - The game can be played again by clicking New Game button.<br>
@@ -42,12 +42,13 @@ Each time a guess is made, a message comes up to announce one of the following:<
 My main goal is to showcase a part of what I have learned within a short time in JavaScript. I struggled a lot to<br> 
 decide on which project to embark upon for this second milestone project as I considered a new website, adding more<br> 
 features to my first milestone project, geolocation using International Space Station (ISS) and/or searching for<br> 
-facilities such as hotels and accommodation or restaurants or stores using Google and Leaflet APIs and of course games.<br> 
+facilities such as hotels and accommodation or restaurants or stores using Google and Leaflet APIs and of course<br> 
+games. 
 I finally settled for this random-number game targetted at young players to keep them busy. With this game, I was<br> 
-able to use the HTML to set the page for the game, use the CSS to style and color the game, and the JavaScript to prepare<br> 
-the logic in the game that makes it to set a mystery number, accept guess numbers, compares them with the mystery number<br> 
-and returns with a verdict whether the guess number is the same as the mystery number or not. The interesting aspect of<br> 
-the game is the selection of the mystery number which is random in all senses.
+able to use the HTML to set the page for the game, use the CSS to style and color the game, and the JavaScript to<br> 
+prepare the logic in the game that makes it to set a mystery number, accept guess numbers, compares them with the<br> 
+mystery number and returns with a verdict whether the guess number is the same as the mystery number or not. The<br> 
+interesting aspect of the game is the selection of the mystery number which is random in all senses.
 
 # Wireframe using Balsamiq
 * Sketching
