@@ -97,25 +97,36 @@ are wrapped in divs so they can be placed in jumbotron for calling extra attenti
 The jumbotron uses utility classes for typography and spacing to space content out within the larger container.<br> 
 The background of the page is styled with light grey color but buttons styled to render different colors upon<br> 
 display, hover and when active.<br> 
-This was tested across all the devices and it works nicely across all the devices: phone, iPad laptop and desktop. 
+
+### Responsiveness testing
+This site has met the objective of creating an online presence with minimalistic design and content, but providing enough<br> 
+information and platform to enable fast contact.<br>
+This site was tested across multiple browsers (Chrome, Safari, Internet Explorer) and on multiple mobile devices<br> 
+(iPad Mini, iPad, Sony Xperia) to ensure compatibility and responsiveness and it works nicely across all the devices.<br> 
+Chrome developer tools were used to additionally inspect responsiveness for the following devices:
+- iPad Pro / iPad / iPad Mini (portrait & landscape);
+- iPhone 5/SE (portrait & landscape);
+- iPhone 6/7/8 (portrait & landscape);
+- iPhone 6/7/8 Plus (portrait & landscape);
+- iPhone X (portrait & landscape);
+- Android (Pixel 2) (portrait & landscape);
+- Moto G4;
+- Galaxy S5;
+- Surface Duo;
+- Galaxy Fold.
+All fonts, images and other attributes have been changed accordingly to fit different screen sizes. Media queries have<br>
+been used to make them work.
+
 
 ## SPELLING & GRAMMAR
 
 Random Number Guess Game text content and this Readme file has been tested for grammar and spelling mistakes<br> 
 through Grammarly.
 
-## The code has been validated using:
+## The codes has been validated using:
 
-#### W3C Mark-up Validation Service and
-#### W3C CSS Validation Service
-
-This site has met the objective of creating an online presence with minimalistic design and content, but providing enough<br> 
-information and platform to enable fast contact.<br>
-The website has been tested across multiple browsers (Chrome, Safari, Firefox) and different screen sizes<br> 
-(Galaxy C5, various iPhones, Huawei, iPad, iPad Pro and laptops) to make sure it is responsive. Bootstrap has been used<br> 
-to achieve this.<br>
-All fonts, images and other attributes have been changed accordingly to fit different screen sizes. Media queries have<br>
-been used to make them work.
+#### W3C Mark-up Validation Service,
+#### W3C CSS Validation Service and
 
 ## Manual testing
 
@@ -144,33 +155,49 @@ and class of panel.
 The input type is set to number as a requirement. This too was manually tested to ensure that it does not accept letters<br>
 and symbols. It renders correctly.
 
+### Peer-code-review
+The project was published on Code Institute Slack code-peer-review forum where other students and mentors tested the site,<br> 
+reviewed the code and provided a useful feedback that helped to improve the game.
+
 # Deployment 
 
-The site was developed using Gitpod full template - workspace to commit and push to GitHub.<br>
+## Deployment
+The site was developed using Gitpod full template-workspace to commit and push to Github.<br> 
 GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight<br>
-from a repository on GitHub, optionally runs the files through a build process, and publishes a website.
+from a repository on GitHub, optionally runs the files through a build process, and publishes a website.<br>
+To keep records of different versions of all project files git version control system was used. In order<br> 
+to track the changes in the local repository the following steps were taken:
+- command `git add 'filename'` - to update what will be committed;
+- command `git commit` - to commit the changes.<br>
+Using `git push` command allows changes from the local repository to be pushed to GitHub.<br>
+This second milestone project is hosted using GitHub pages, deployed directly from the `master` branch.<br>
 
 ## The following steps can be taken to access my page from the GitHub repository. 
+To deploy this project from GitHub I followed these steps:
+1. On GitHub website I logged onto my account and navigated to [my repository] and then to this project <br>
+(https://github.com/oakerele-web/my-second-milestone-project);
+2. Under my repository name, from the menu at the top, I clicked on **Settings** tab;
+3. I scrolled down to the **GitHub Pages** section;
+4. Under the source section, click on the dropdown menu and select **Master Branch** as your GitHub Pages publishing<br>
+   source;<br>
+5. I clicked **Save**.<br>
 
-On Github navigate to my-first-milestone-project<br>
-From the menu at the top click on settings<br>
-Scroll down to the GitHub pages section<br>
-Under the Source, section click on the dropdown menu and select Master Branch as your GitHub Pages publishing source.<br>
-Select save.
+The deployed site will update automatically upon new commits to the `master` branch. It is important to<br> 
+remember that for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.<br>
 
 ## To Clone the Repository
-Navigate to the Github remote repository: oakerele-web.github.io<br>
-Click 'Clone or Download'.<br>
-Copy the clone HTTPS or SSH by clicking on the copy button.<br>
-Open Git Bash.<br>
-Change the current working directory to the location where you want the cloned directory to be made.<br>
-Type git clone, and then paste the URL you copied.<br>
-Press Enter. Your local clone will be created.<br>
+In order to clone my GitHub repository to your local one you should follow these steps:
+1. On GitHub navigate to [my repository](https://github.com/oakerele-web/my-second-milestone-project);
+2. Under the repository name, click **Clone or download**;
+3. Copy the clone HTTPS or SSH by clicking on the copy button;
+4. Open Git Bash;
+5. Change the current working directory to the location where you want the cloned directory to be made;
+6. Type `git clone` and then paste the URL you copied earlier on;
+7. Lastly press **Enter** and your local clone will be created.<br>
 
 ***The URL for this project is as follows:***
 
 https://oakerele-web.github.io/my-second-milestone-project/
-
 
 # Credits 
 
