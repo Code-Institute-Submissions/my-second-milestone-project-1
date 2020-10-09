@@ -155,7 +155,7 @@ and class of panel.
 The input type is set to number as a requirement. This too was manually tested to ensure that it does not accept letters<br>
 and symbols. It renders correctly.
 
-### Peer-code-review
+## Peer-code-review
 The project was published on Code Institute Slack code-peer-review forum where other students and mentors tested the site,<br> 
 reviewed the code and provided a useful feedback that helped to improve the game.
 
